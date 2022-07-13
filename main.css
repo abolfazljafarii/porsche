@@ -1,18 +1,23 @@
 :root{
-    scrollbar-color: #40ACF1 #292F36;
+    scrollbar-color: #40ACF1 #042850;
     scrollbar-width: thin !important;
 }
 ::-webkit-scrollbar{
     width: .5rem;
 }
 ::-webkit-scrollbar-track{
-    background-color: #292F36;
+    background-color: #042850;
 }
 ::-webkit-scrollbar-thumb{
     background-color: #40ACF1;
     border-radius: 20px;
 }
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
+    background-color: #292F36;
     overflow-x: hidden;
 }
 
@@ -26,5 +31,5 @@ body{
 .eight{ background: url('img/8.jfif') no-repeat fixed center; }
 .one, .two, .three, .four, .five, .six, .seven, .eight{
     height: 100vh;
-    background-size: cover;
+    background-size: contain;
 }
