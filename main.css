@@ -1,0 +1,30 @@
+:root{
+    scrollbar-color: #40ACF1 #292F36;
+    scrollbar-width: thin !important;
+}
+::-webkit-scrollbar{
+    width: .5rem;
+}
+::-webkit-scrollbar-track{
+    background-color: #292F36;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #40ACF1;
+    border-radius: 20px;
+}
+body{
+    overflow-x: hidden;
+}
+
+.one{ background: url('img/1.png') no-repeat fixed center; }
+.two{ background: url('img/2.png') no-repeat fixed center; }
+.three{ background: url('img/3.png') no-repeat fixed center; }
+.four{ background: url('img/4.png') no-repeat fixed center; }
+.five{ background: url('img/5.png') no-repeat fixed center; }
+.six{ background: url('img/6.png') no-repeat fixed center; }
+.seven{ background: url('img/7.png') no-repeat fixed center; }
+.eight{ background: url('img/8.png') no-repeat fixed center; }
+.one, .two, .three, .four, .five, .six, .seven, .eight{
+    height: 100vh;
+    background-size: contain;
+}
