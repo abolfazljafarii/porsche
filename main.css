@@ -1,41 +1,97 @@
-:root{
+:root {
     scrollbar-color: #40ACF1 #042850;
     scrollbar-width: thin !important;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     width: .5rem;
 }
-::-webkit-scrollbar-track{
+
+::-webkit-scrollbar-track {
     background-color: #042850;
 }
-::-webkit-scrollbar-thumb{
+
+::-webkit-scrollbar-thumb {
     background-color: #40ACF1;
     border-radius: 20px;
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     background-color: #292F36;
     overflow-x: hidden;
 }
 
-.one{ background: url('img/1.jfif') no-repeat fixed center; }
-.two{ background: url('img/2.jfif') no-repeat fixed center; }
-.three{ background: url('img/3.jfif') no-repeat fixed center; }
-.four{ background: url('img/4.jfif') no-repeat fixed center; }
-.five{ background: url('img/5.jfif') no-repeat fixed center; }
-.six{ background: url('img/6.jfif') no-repeat fixed center; }
-.seven{ background: url('img/7.jfif') no-repeat fixed center; }
-.eight{ background: url('img/8.jfif') no-repeat fixed center; }
-.one, .two, .three, .four, .five, .six, .seven, .eight{
+.one {
+    background: url('img/1.jfif') no-repeat fixed center;
+}
+
+.two {
+    background: url('img/2.jfif') no-repeat fixed center;
+}
+
+.three {
+    background: url('img/3.jfif') no-repeat fixed center;
+}
+
+.four {
+    background: url('img/4.jfif') no-repeat fixed center;
+}
+
+.five {
+    background: url('img/5.jfif') no-repeat fixed center;
+}
+
+.six {
+    background: url('img/6.jfif') no-repeat fixed center;
+}
+
+.seven {
+    background: url('img/7.jfif') no-repeat fixed center;
+}
+
+.eight {
+    background: url('img/8.jfif') no-repeat fixed center;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight {
     height: 100vh;
     background-size: contain;
 }
 
 @media only screen and (min-width: 1100px) {
-    .one, .two, .three, .four, .five, .six, .seven, .eight{
+
+    .one,
+    .two,
+    .three,
+    .four,
+    .five,
+    .six,
+    .seven,
+    .eight {
         background-size: cover;
     }
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem;
+}
+
+.scroll {
+    font-size: 2.5rem;
+    color: #b4c0cd;
+    position: fixed;
 }
